@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clepsi.it/sitemap-index.xml
