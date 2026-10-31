@@ -1,1 +1,0 @@
-var e=`https://app.clepsi.it`,t=`https://clepsi.it/installa`;function n(t){let n=new URLSearchParams(t).get(`invito`);return n&&/^[\w-]{10,200}$/.test(n)?`${e}/invito/${encodeURIComponent(n)}`:e}function r(e){return/android/i.test(e)?`android`:`iphone`}function i(e){return/Instagram|FBAN|FBAV|FB_IAB|FBIOS/i.test(e)}export{r as i,i as n,n as r,t};
