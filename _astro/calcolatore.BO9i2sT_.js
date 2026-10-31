@@ -1,0 +1,1 @@
+function e(e){let t=Math.round(Math.abs(e)),n=String(t).replace(/\B(?=(\d{3})+(?!\d))/g,`.`);return(e<0&&t>0?`−`:``)+n}var t=t=>`${e(t)} €`;function n(t,n){let[r,i]=Math.abs(t).toFixed(n).split(`.`);return(t<0?`−`:``)+e(Number(r))+(i?`,${i}`:``)}function r(e){let t=e.replace(/[^0-9]/g,``);return t?Number(t):0}export{e as i,t as n,r,n as t};

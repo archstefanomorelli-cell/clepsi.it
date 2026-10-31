@@ -1,0 +1,1 @@
+import{r as e,t}from"./app.6F4IRKpV.js";var n=e(location.search);document.querySelectorAll(`a[data-apri]`).forEach(e=>e.href=n);var r=document.querySelector(`button[data-copia]`);r?.addEventListener(`click`,async()=>{try{await navigator.clipboard.writeText(t)}catch{return}let e=r.textContent;r.textContent=r.dataset.copiato??e,setTimeout(()=>r.textContent=e,2e3)});
